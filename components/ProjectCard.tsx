@@ -4,7 +4,7 @@ import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 
 function ProjectCard({title, desc, projectPic, seeMoreLink} : {title: string, desc: string, projectPic: string, seeMoreLink: string}) {
   return (
-    <Card css={{ w: "100%", h: "400px" }}>
+    <Card css={{ w: "100%", h: "400px" }} variant="bordered" borderWeight="light">
       <Card.Body css={{ p: 0 }}>
         <Card.Image
           src={projectPic}

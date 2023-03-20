@@ -67,14 +67,44 @@ export default function Home() {
           <Image
               src='/React.png'
               alt='React.js logo'
-              width={80}
-              height={70}
+              width={70}
+              height={60}
+          />
+          <Image
+            src='/native.png'
+            alt='React native Logo'
+            width={90}
+            height={60}
+          />
+          <Image
+            src='/redux.png'
+            alt='Redux Logo'
+            width={60}
+            height={60}
           />
           <Image
             src='/Vue.png'
             alt='Vue.js Logo'
-            width={80}
-            height={70}
+            width={70}
+            height={60}
+          />
+          <Image
+            src='/nuxt.png'
+            alt='Nuxt.js Logo'
+            width={90}
+            height={60}
+          />
+          <Image
+            src='/ts.png'
+            alt='Typescript Logo'
+            width={60}
+            height={60}
+          />
+          <Image
+            src='/jest.png'
+            alt='Jest Logo'
+            width={60}
+            height={60}
           />
         </div>
         <div className={styles.divider}></div>
