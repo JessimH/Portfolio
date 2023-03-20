@@ -56,8 +56,8 @@ export default function Home() {
           <Image
             src='/Calendly.png'
             alt='User profile picture'
-            width={50}
-            height={50}
+            width={30}
+            height={30}
           />
           reach me on calendly
         </Link>
@@ -98,6 +98,24 @@ export default function Home() {
             src='/ts.png'
             alt='Typescript Logo'
             width={60}
+            height={60}
+          />
+          <Image
+            src='/scss.png'
+            alt='Scss Logo'
+            width={80}
+            height={60}
+          />
+          <Image
+            src='/tailwind.png'
+            alt='Tailwind Logo'
+            width={60}
+            height={60}
+          />
+          <Image
+            src='/bootstrap.png'
+            alt='Bootstrap Logo'
+            width={75}
             height={60}
           />
           <Image
