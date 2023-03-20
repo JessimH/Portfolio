@@ -66,14 +66,14 @@ export default function Home() {
         <div className={styles.stack_container}>
           <Image
               src='/React.png'
-              alt='User profile picture'
-              width={70}
+              alt='React.js logo'
+              width={80}
               height={70}
           />
           <Image
             src='/Vue.png'
-            alt='User profile picture'
-            width={70}
+            alt='Vue.js Logo'
+            width={80}
             height={70}
           />
         </div>
