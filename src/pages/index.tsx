@@ -34,7 +34,7 @@ export default function Home() {
           />
         </div>
         <h1 className={styles.title}>Jessim Heddadi</h1>
-        <p className={styles.subtitle}>Hi I'm Jessim 👋 , a frontend Software Developer based in Paris 🇫🇷</p>
+        <p className={styles.subtitle}>Hi I'm Jessim 👋 , a Fullstack Software Developer based in Paris 🇫🇷</p>
         <ul className={styles.links_ul}>
           <li className={styles.links_li}>
             <Link target='_blank' href="https://www.linkedin.com/in/jessimheddadi/">  
@@ -103,6 +103,30 @@ export default function Home() {
           <Image
             src='/jest.png'
             alt='Jest Logo'
+            width={60}
+            height={60}
+          />
+          <Image
+            src='/node.png'
+            alt='node.js Logo'
+            width={55}
+            height={60}
+          />
+          <Image
+            src='/supabase.png'
+            alt='supabase Logo'
+            width={60}
+            height={60}
+          />
+          <Image
+            src='/pgsql.png'
+            alt='Pgsql Logo'
+            width={60}
+            height={60}
+          />
+          <Image
+            src='/mongo.png'
+            alt='MongoDb Logo'
             width={60}
             height={60}
           />
