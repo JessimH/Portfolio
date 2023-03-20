@@ -119,6 +119,12 @@ export default function Home() {
             height={60}
           />
           <Image
+            src='/graphQL.png'
+            alt='GraphqL Logo'
+            width={60}
+            height={60}
+          />
+          <Image
             src='/pgsql.png'
             alt='Pgsql Logo'
             width={60}
