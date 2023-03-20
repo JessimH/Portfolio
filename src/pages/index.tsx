@@ -38,17 +38,17 @@ export default function Home() {
         <ul className={styles.links_ul}>
           <li className={styles.links_li}>
             <Link target='_blank' href="https://www.linkedin.com/in/jessimheddadi/">  
-              <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: 20, color: "lightgrey" }} />
+              <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: 25, color: "lightgrey" }} />
             </Link>
           </li>
           <li className={styles.links_li}>
             <Link target='_blank' href="https://twitter.com/le_BigJ">  
-              <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 20, color: "lightgrey" }} />
+              <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 25, color: "lightgrey" }} />
             </Link>
           </li>
           <li className={styles.links_li}>
             <Link target='_blank' href="https://github.com/JessimH">  
-              <FontAwesomeIcon icon={faGithub} style={{ fontSize: 20, color: "lightgrey" }} />
+              <FontAwesomeIcon icon={faGithub} style={{ fontSize: 25, color: "lightgrey" }} />
             </Link>
           </li>
         </ul>
