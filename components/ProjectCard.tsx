@@ -23,7 +23,7 @@ function ProjectCard({title, desc, projectPic, seeMoreLink} : {title: string, de
           zIndex: 1,
         }}
       >
-        <Row>
+        <Row align='center'>
           <Col>
             <Row>
               <Col>

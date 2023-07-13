@@ -13,6 +13,7 @@ import {
   faTwitter,
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Home() {
@@ -34,7 +35,7 @@ export default function Home() {
           />
         </div>
         <h1 className={styles.title}>Jessim Heddadi</h1>
-        <p className={styles.subtitle}>Hi I'm Jessim 👋 , a Fullstack Software Developer based in Paris 🇫🇷</p>
+        <p className={styles.subtitle}>Hi I'm Jessim 👋 , a Frontend Software Developer based in Paris 🇫🇷</p>
         <ul className={styles.links_ul}>
           <li className={styles.links_li}>
             <Link target='_blank' href="https://www.linkedin.com/in/jessimheddadi/">  
@@ -42,13 +43,13 @@ export default function Home() {
             </Link>
           </li>
           <li className={styles.links_li}>
-            <Link target='_blank' href="https://twitter.com/le_BigJ">  
-              <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 25, color: "lightgrey" }} />
+            <Link target='_blank' href="https://www.malt.fr/profile/jessimheddadi">  
+              <FontAwesomeIcon icon={faGithub} style={{ fontSize: 25, color: "lightgrey" }} />
             </Link>
           </li>
           <li className={styles.links_li}>
             <Link target='_blank' href="https://github.com/JessimH">  
-              <FontAwesomeIcon icon={faGithub} style={{ fontSize: 25, color: "lightgrey" }} />
+              <FontAwesomeIcon icon={faBriefcase} style={{ fontSize: 25, color: "lightgrey" }} />
             </Link>
           </li>
         </ul>
@@ -65,24 +66,6 @@ export default function Home() {
         <h2>🤯 I work with the latest frontend technologies and their ecosystem</h2>
         <div className={styles.stack_container}>
           <Image
-              src='/React.png'
-              alt='React.js logo'
-              width={70}
-              height={60}
-          />
-          <Image
-            src='/native.png'
-            alt='React native Logo'
-            width={90}
-            height={60}
-          />
-          <Image
-            src='/redux.png'
-            alt='Redux Logo'
-            width={60}
-            height={60}
-          />
-          <Image
             src='/Vue.png'
             alt='Vue.js Logo'
             width={70}
@@ -91,6 +74,18 @@ export default function Home() {
           <Image
             src='/nuxt.png'
             alt='Nuxt.js Logo'
+            width={90}
+            height={60}
+          />
+          <Image
+              src='/React.png'
+              alt='React.js logo'
+              width={70}
+              height={60}
+          />
+          <Image
+            src='/native.png'
+            alt='React native Logo'
             width={90}
             height={60}
           />
@@ -160,6 +155,9 @@ export default function Home() {
         <Grid.Container gap={2} justify="center">
           <Grid xs={12} sm={4}>
             <ProjectCard title='Influence4you :' desc='Technology and influence marketing experts' projectPic='/i4y-project.png' seeMoreLink='https://www.influence4you.com/fr'/>
+          </Grid>
+          <Grid xs={12} sm={4}>
+            <ProjectCard title='Ormex' desc='Standard certifies and registers your agricultural carbon projects.' projectPic='/ormex-project.webp' seeMoreLink='https://www.ormex.app/'/>
           </Grid>
           <Grid xs={12} sm={4}>
             <ProjectCard title='LittlexGarden :' desc='online manga reading app' projectPic='/Lg-project.png' seeMoreLink='https://littlexgarden.com/'/>
