@@ -45,13 +45,13 @@ export default function Home() {
           </li>
           <li className={styles.links_li}>
             <div className={styles.links_li_tooltip}>Github</div>
-            <Link target='_blank' href="https://www.malt.fr/profile/jessimheddadi">  
+            <Link target='_blank' href="https://github.com/JessimH">  
               <FontAwesomeIcon className={styles.links_li_icon} icon={faGithub} style={{ fontSize: 25, color: "lightgrey" }} />
             </Link>
           </li>
           <li className={styles.links_li}>
             <div className={styles.links_li_tooltip}>Malt</div>
-            <Link target='_blank' href="https://github.com/JessimH">  
+            <Link target='_blank' href="https://www.malt.fr/profile/jessimheddadi">  
               <FontAwesomeIcon className={styles.links_li_icon}icon={faBriefcase} style={{ fontSize: 25, color: "lightgrey" }} />
             </Link>
           </li>
