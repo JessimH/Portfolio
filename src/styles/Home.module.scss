@@ -58,12 +58,43 @@
     list-style: none;
 
     .links_li {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+
       cursor: pointer;
       transition: 0.2s ease-in-out;
 
-      &:hover {
-        transform: scale(1.1);
+      .links_li_tooltip {
+        transform: translateY(4px);
+        opacity: 0;
+        position: absolute;
+        bottom: calc(100% + 6px);
+        background-color: black;
+        padding: 4px 6px;
+        border-radius: 4px;
+        transition: 0.2s ease-in-out;
+        font-size: 12px;
       }
+
+      .links_li_icon {
+        transition: 0.2s ease-in-out;
+      }
+
+      &:hover {
+
+        .links_li_tooltip {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+
+        .links_li_icon {
+          transform: scale(1.1);
+        }
+      }
+
     }
   }
 

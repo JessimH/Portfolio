@@ -38,18 +38,21 @@ export default function Home() {
         <p className={styles.subtitle}>Hi I'm Jessim 👋 , a Frontend Software Developer based in Paris 🇫🇷</p>
         <ul className={styles.links_ul}>
           <li className={styles.links_li}>
+            <div className={styles.links_li_tooltip}>Linkedin</div>
             <Link target='_blank' href="https://www.linkedin.com/in/jessimheddadi/">  
-              <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: 25, color: "lightgrey" }} />
+              <FontAwesomeIcon className={styles.links_li_icon} icon={faLinkedin} style={{ fontSize: 25, color: "lightgrey" }} />
             </Link>
           </li>
           <li className={styles.links_li}>
+            <div className={styles.links_li_tooltip}>Github</div>
             <Link target='_blank' href="https://www.malt.fr/profile/jessimheddadi">  
-              <FontAwesomeIcon icon={faGithub} style={{ fontSize: 25, color: "lightgrey" }} />
+              <FontAwesomeIcon className={styles.links_li_icon} icon={faGithub} style={{ fontSize: 25, color: "lightgrey" }} />
             </Link>
           </li>
           <li className={styles.links_li}>
+            <div className={styles.links_li_tooltip}>Malt</div>
             <Link target='_blank' href="https://github.com/JessimH">  
-              <FontAwesomeIcon icon={faBriefcase} style={{ fontSize: 25, color: "lightgrey" }} />
+              <FontAwesomeIcon className={styles.links_li_icon}icon={faBriefcase} style={{ fontSize: 25, color: "lightgrey" }} />
             </Link>
           </li>
         </ul>
