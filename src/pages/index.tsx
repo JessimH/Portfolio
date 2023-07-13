@@ -35,7 +35,7 @@ export default function Home() {
           />
         </div>
         <h1 className={styles.title}>Jessim Heddadi</h1>
-        <p className={styles.subtitle}>Hi I'm Jessim 👋 , a Frontend Software Developer based in Paris 🇫🇷</p>
+        <h3 className={styles.subtitle}>Hi I'm Jessim 👋 , a Frontend Software Developer based in Paris 🇫🇷</h3>
         <ul className={styles.links_ul}>
           <li className={styles.links_li}>
             <div className={styles.links_li_tooltip}>Linkedin</div>
@@ -126,12 +126,6 @@ export default function Home() {
             src='/node.png'
             alt='node.js Logo'
             width={55}
-            height={60}
-          />
-          <Image
-            src='/supabase.png'
-            alt='supabase Logo'
-            width={60}
             height={60}
           />
           <Image
